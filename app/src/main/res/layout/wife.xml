@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="389dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012">
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female" />
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onPlaceClick"
+        android:text="@string/text_place"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgGender" />
+
+    <ToggleButton
+        android:id="@+id/tbVibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onVibrateClick"
+        android:text="ToggleButton"
+        android:textOff="@string/textOff_tbVibrateOff"
+        android:textOn="@string/textOn_tbVibrateOn"
+        app:layout_constraintEnd_toEndOf="@+id/cbPlace"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cbPlace"
+        app:layout_constraintTop_toBottomOf="@+id/cbPlace" />
+
+    <Switch
+        android:id="@+id/swWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/swWife"
+        android:textOff="@string/textOff_swWifiOff"
+        android:textOn="@string/textOn_swWifiOn"
+        app:layout_constraintEnd_toEndOf="@+id/tbVibrate"
+        app:layout_constraintStart_toStartOf="@+id/tbVibrate"
+        app:layout_constraintTop_toBottomOf="@+id/tbVibrate" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="313dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00FFFF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/swWifi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/swWifi"
+        app:layout_constraintTop_toBottomOf="@+id/swWifi"
+        app:layout_constraintVertical_bias="0.07" />
+</android.support.constraint.ConstraintLayout>

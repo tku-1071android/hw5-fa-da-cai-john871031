@@ -2,4 +2,44 @@
     <string name="app_name">FaDaCai</string>
     <string name="ADD">ADD</string>
     <string name="text_btADD">text_btADD</string>
+    <string name="WEB">WEB</string>
+    <string name="text_tvtext">Please give your review for this book</string>
+    <string name="STAR">STAR</string>
+    <string name="text_tvText">Android</string>
+    <string name="SIZE">SIZE</string>
+    <string name="WIFE">WIFE</string>
+    <string name="text_place">Taipei station</string>
+    <string name="textOn_tbVibrateOn">VIBRATE ON</string>
+    <string name="textOff_tbVibrateOff">VIBRATE OFF</string>
+    <string name="textOff_swWifiOff">off</string>
+    <string name="textOn_swWifiOn">on</string>
+    <string name="swWife">wife</string>
+    <string name="checked">checked</string>
+    <string name="unchecked">unchecked</string>
+    <string name="text_tvTitle">Press menu button (om the upper right corner)</string>
+    <string name="deleteItem">Delete Selected Item</string>
+    <string name="deleteAll">Delete All the Items</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="cyan">Cyan</string>
+    <string name="clear">Clear</string>
+    <string name="background">Change Background Color</string>
+    <string name="yangmingshan">Yangmingshan National Park</string>
+    <string name="yushan">Yushan National Park</string>
+    <string name="taroko">Taroko National Park</string>
+    <string name="myloc">My Location</string>
+    <string name="exit">Exit</string>
+    <string name="guide">Guide</string>
+    <string name="traffic">Traffic</string>
+    <string name="DELETE">DELETE</string>
+    <string name="SPINNER">spinner</string>
+    <string name="text_tvfood">Your favorite food</string>
+    <string name="text_tvplace">Your favorite place</string>
+    <string name="text_NothingSelected">Nothing selected!</string>
+    <string name="FINISH">FINISH</string>
+    <string-array name="food_array">
+        <item>spaghetti</item>
+        <item>dumpling</item>
+        <item>sushi</item>
+    </string-array>
 </resources>
